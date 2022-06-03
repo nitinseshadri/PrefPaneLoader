@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22BF342227C53D6400A66233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF342127C53D6400A66233 /* AppDelegate.swift */; };
+		22BF342427C53D6400A66233 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BF342327C53D6400A66233 /* ViewController.swift */; };
+		22BF342627C53D6500A66233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22BF342527C53D6500A66233 /* Assets.xcassets */; };
+		22BF342927C53D6500A66233 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22BF342727C53D6500A66233 /* Main.storyboard */; };
+		22BF343827C53D8400A66233 /* PrefPaneLoaderPrefPane.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BF343727C53D8400A66233 /* PrefPaneLoaderPrefPane.h */; };
+		22BF343A27C53D8400A66233 /* PrefPaneLoaderPrefPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BF343927C53D8400A66233 /* PrefPaneLoaderPrefPane.m */; };
+		22BF343C27C53D8400A66233 /* PrefPaneLoaderPrefPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 22BF343B27C53D8400A66233 /* PrefPaneLoaderPrefPane.tiff */; };
+		22BF343F27C53D8400A66233 /* PrefPaneLoaderPrefPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BF343D27C53D8400A66233 /* PrefPaneLoaderPrefPane.xib */; };
+		22BF344527C53E2900A66233 /* PrefPaneLoaderPrefPane.prefPane in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = 22BF343527C53D8400A66233 /* PrefPaneLoaderPrefPane.prefPane */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22BF344627C53E2900A66233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22BF341627C53D6400A66233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22BF343427C53D8400A66233;
+			remoteInfo = PrefPaneLoaderPrefPane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22BF344827C53E2A00A66233 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				22BF344527C53E2900A66233 /* PrefPaneLoaderPrefPane.prefPane in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22BF341E27C53D6400A66233 /* PrefPaneLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrefPaneLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BF342127C53D6400A66233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22BF342327C53D6400A66233 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22BF342527C53D6500A66233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22BF342827C53D6500A66233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22BF342A27C53D6500A66233 /* PrefPaneLoader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PrefPaneLoader.entitlements; sourceTree = "<group>"; };
+		22BF343527C53D8400A66233 /* PrefPaneLoaderPrefPane.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrefPaneLoaderPrefPane.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BF343727C53D8400A66233 /* PrefPaneLoaderPrefPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefPaneLoaderPrefPane.h; sourceTree = "<group>"; };
+		22BF343927C53D8400A66233 /* PrefPaneLoaderPrefPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrefPaneLoaderPrefPane.m; sourceTree = "<group>"; };
+		22BF343B27C53D8400A66233 /* PrefPaneLoaderPrefPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = PrefPaneLoaderPrefPane.tiff; sourceTree = "<group>"; };
+		22BF343E27C53D8400A66233 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PrefPaneLoaderPrefPane.xib; sourceTree = "<group>"; };
+		22BF344027C53D8400A66233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22BF341B27C53D6400A66233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BF343227C53D8400A66233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22BF341527C53D6400A66233 = {
+			isa = PBXGroup;
+			children = (
+				22BF342027C53D6400A66233 /* PrefPaneLoader */,
+				22BF343627C53D8400A66233 /* PrefPaneLoaderPrefPane */,
+				22BF341F27C53D6400A66233 /* Products */,
+				22BF344427C53E2900A66233 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22BF341F27C53D6400A66233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22BF341E27C53D6400A66233 /* PrefPaneLoader.app */,
+				22BF343527C53D8400A66233 /* PrefPaneLoaderPrefPane.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22BF342027C53D6400A66233 /* PrefPaneLoader */ = {
+			isa = PBXGroup;
+			children = (
+				22BF342127C53D6400A66233 /* AppDelegate.swift */,
+				22BF342327C53D6400A66233 /* ViewController.swift */,
+				22BF342527C53D6500A66233 /* Assets.xcassets */,
+				22BF342727C53D6500A66233 /* Main.storyboard */,
+				22BF342A27C53D6500A66233 /* PrefPaneLoader.entitlements */,
+			);
+			path = PrefPaneLoader;
+			sourceTree = "<group>";
+		};
+		22BF343627C53D8400A66233 /* PrefPaneLoaderPrefPane */ = {
+			isa = PBXGroup;
+			children = (
+				22BF343727C53D8400A66233 /* PrefPaneLoaderPrefPane.h */,
+				22BF343927C53D8400A66233 /* PrefPaneLoaderPrefPane.m */,
+				22BF343B27C53D8400A66233 /* PrefPaneLoaderPrefPane.tiff */,
+				22BF343D27C53D8400A66233 /* PrefPaneLoaderPrefPane.xib */,
+				22BF344027C53D8400A66233 /* Info.plist */,
+			);
+			path = PrefPaneLoaderPrefPane;
+			sourceTree = "<group>";
+		};
+		22BF344427C53E2900A66233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22BF343027C53D8400A66233 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BF343827C53D8400A66233 /* PrefPaneLoaderPrefPane.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22BF341D27C53D6400A66233 /* PrefPaneLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BF342D27C53D6500A66233 /* Build configuration list for PBXNativeTarget "PrefPaneLoader" */;
+			buildPhases = (
+				22BF341A27C53D6400A66233 /* Sources */,
+				22BF341B27C53D6400A66233 /* Frameworks */,
+				22BF341C27C53D6400A66233 /* Resources */,
+				22BF344827C53E2A00A66233 /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22BF344727C53E2900A66233 /* PBXTargetDependency */,
+			);
+			name = PrefPaneLoader;
+			productName = PrefPaneLoader;
+			productReference = 22BF341E27C53D6400A66233 /* PrefPaneLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22BF343427C53D8400A66233 /* PrefPaneLoaderPrefPane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BF344127C53D8400A66233 /* Build configuration list for PBXNativeTarget "PrefPaneLoaderPrefPane" */;
+			buildPhases = (
+				22BF343027C53D8400A66233 /* Headers */,
+				22BF343127C53D8400A66233 /* Sources */,
+				22BF343227C53D8400A66233 /* Frameworks */,
+				22BF343327C53D8400A66233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrefPaneLoaderPrefPane;
+			productName = PrefPaneLoaderPrefPane;
+			productReference = 22BF343527C53D8400A66233 /* PrefPaneLoaderPrefPane.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22BF341627C53D6400A66233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					22BF341D27C53D6400A66233 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					22BF343427C53D8400A66233 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 22BF341927C53D6400A66233 /* Build configuration list for PBXProject "PrefPaneLoader" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22BF341527C53D6400A66233;
+			productRefGroup = 22BF341F27C53D6400A66233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22BF341D27C53D6400A66233 /* PrefPaneLoader */,
+				22BF343427C53D8400A66233 /* PrefPaneLoaderPrefPane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22BF341C27C53D6400A66233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BF342627C53D6500A66233 /* Assets.xcassets in Resources */,
+				22BF342927C53D6500A66233 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BF343327C53D8400A66233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BF343F27C53D8400A66233 /* PrefPaneLoaderPrefPane.xib in Resources */,
+				22BF343C27C53D8400A66233 /* PrefPaneLoaderPrefPane.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22BF341A27C53D6400A66233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BF342427C53D6400A66233 /* ViewController.swift in Sources */,
+				22BF342227C53D6400A66233 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BF343127C53D8400A66233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BF343A27C53D8400A66233 /* PrefPaneLoaderPrefPane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22BF344727C53E2900A66233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22BF343427C53D8400A66233 /* PrefPaneLoaderPrefPane */;
+			targetProxy = 22BF344627C53E2900A66233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22BF342727C53D6500A66233 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BF342827C53D6500A66233 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22BF343D27C53D8400A66233 /* PrefPaneLoaderPrefPane.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BF343E27C53D8400A66233 /* Base */,
+			);
+			name = PrefPaneLoaderPrefPane.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22BF342B27C53D6500A66233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22BF342C27C53D6500A66233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		22BF342E27C53D6500A66233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PrefPaneLoader/PrefPaneLoader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitinseshadri.PrefPaneLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		22BF342F27C53D6500A66233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PrefPaneLoader/PrefPaneLoader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitinseshadri.PrefPaneLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		22BF344227C53D8400A66233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrefPaneLoaderPrefPane/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = PrefPaneLoaderPrefPane;
+				INFOPLIST_KEY_NSPrincipalClass = PrefPaneLoaderPrefPane;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitinseshadri.PrefPaneLoader.PrefPane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		22BF344327C53D8400A66233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrefPaneLoaderPrefPane/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = PrefPaneLoaderPrefPane;
+				INFOPLIST_KEY_NSPrincipalClass = PrefPaneLoaderPrefPane;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nitinseshadri.PrefPaneLoader.PrefPane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22BF341927C53D6400A66233 /* Build configuration list for PBXProject "PrefPaneLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BF342B27C53D6500A66233 /* Debug */,
+				22BF342C27C53D6500A66233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BF342D27C53D6500A66233 /* Build configuration list for PBXNativeTarget "PrefPaneLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BF342E27C53D6500A66233 /* Debug */,
+				22BF342F27C53D6500A66233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BF344127C53D8400A66233 /* Build configuration list for PBXNativeTarget "PrefPaneLoaderPrefPane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BF344227C53D8400A66233 /* Debug */,
+				22BF344327C53D8400A66233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22BF341627C53D6400A66233 /* Project object */;
+}
